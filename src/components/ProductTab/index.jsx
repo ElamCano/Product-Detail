@@ -32,7 +32,7 @@ export default function ProductTab() {
       </TabsHeader>
       <TabsBody className="w-[450px]">
         {data.map(({ value, desc }) => (
-          <TabPanel key={value} value={value}>
+          <TabPanel key={value} value={value} className="md:h-36">
             {desc}
           </TabPanel>
         ))}

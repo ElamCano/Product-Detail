@@ -19,6 +19,7 @@ export default function Header() {
             }}
             whileInView={{ opacity: 1, translateX: 0, marginRight: 0 }}
             transition={{ duration: 0.3 }}
+            className="cursor-pointer"
           >
             Inicio
           </motion.div>
@@ -30,6 +31,7 @@ export default function Header() {
             }}
             whileInView={{ opacity: 1, translateX: 0, marginRight: 0 }}
             transition={{ duration: 0.7, ease: "anticipate" }}
+            className="cursor-pointer"
           >
             Productos
           </motion.div>
@@ -41,6 +43,7 @@ export default function Header() {
             }}
             whileInView={{ opacity: 1, translateX: 0, marginRight: 0 }}
             transition={{ duration: 0.8, ease: "anticipate" }}
+            className="cursor-pointer"
           >
             Servicios
           </motion.div>
@@ -52,6 +55,7 @@ export default function Header() {
             }}
             whileInView={{ opacity: 1, translateX: 0, marginRight: 0 }}
             transition={{ duration: 0.9, ease: "anticipate" }}
+            className="cursor-pointer"
           >
             Contacto
           </motion.div>
@@ -63,6 +67,7 @@ export default function Header() {
             }}
             whileInView={{ opacity: 1, translateX: 0, marginRight: 0 }}
             transition={{ duration: 1, ease: "anticipate" }}
+            className="cursor-pointer"
           >
             <img src="/cart.svg" alt="" className="w-6" />
           </motion.div>
