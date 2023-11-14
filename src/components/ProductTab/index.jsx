@@ -11,9 +11,9 @@ import {
 export default function ProductTab() {
   const [activeTab, setActiveTab] = useState("descripción");
   return (
-    <Tabs value={activeTab} className="mt-12">
+    <Tabs value={activeTab} className="mt-8 lg:mt-12">
       <TabsHeader
-        className="rounded-none border-b border-blue-gray-50 bg-transparent p-0"
+        className="z-0 w-[350px] lg:w-[470px] rounded-none border-b border-blue-gray-50 bg-transparent p-0"
         indicatorProps={{
           className:
             "bg-transparent border-b-2 border-gray-900 shadow-none rounded-none",
@@ -30,7 +30,7 @@ export default function ProductTab() {
           </Tab>
         ))}
       </TabsHeader>
-      <TabsBody className="w-[450px]">
+      <TabsBody className="w-[370px]  h-[150px]  ml-[-5px] lg:w-[470px]">
         {data.map(({ value, desc }) => (
           <TabPanel key={value} value={value} className="md:h-36">
             {desc}

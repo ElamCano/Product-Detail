@@ -25,7 +25,7 @@ export default function ProductSize({ s, m, l, xl, xxl, xxxl }) {
   };
   return (
     <div>
-      <div className="flex w-full mt-10">
+      <div className="flex w-full mt-10 lg:mt-6">
         <div className="flex justify-around w-[300px] ">
           <p>Talle</p>
           <button
@@ -65,7 +65,11 @@ export default function ProductSize({ s, m, l, xl, xxl, xxxl }) {
             XXXL
           </button>
         </div>
-        {active && <p>{active}</p>}
+        {active && (
+          <p className="mt-1 text-[10px] h-12 w-[109px] text-gray-600">
+            {active}
+          </p>
+        )}
       </div>
       <ProductButtons max={disponible} resetCounter={counter} />
     </div>

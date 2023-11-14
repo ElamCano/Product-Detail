@@ -10,9 +10,9 @@ export default function ProductName({ name, price, previousPrice, sku }) {
         <p>.</p>
         <button className="uppercase text-gray-700">{name}</button>
       </div>
-      <h1 className="font-bold text-5xl md:mt-2">{name}</h1>
-      <div className="flex text-2xl mt-6">
-        <p className="text-4xl font-bold">${price}</p>
+      <h1 className="font-bold text-4xl lg:text-5xl lg:mt-2">{name}</h1>
+      <div className="flex text-lg lg:text-2xl ml-2 lg:ml-0 mt-6">
+        <p className="text-2xl lg:text-4xl font-bold">${price}</p>
         <p
           className={`${
             previousPrice
@@ -22,7 +22,7 @@ export default function ProductName({ name, price, previousPrice, sku }) {
         >
           ${previousPrice}
         </p>
-        <p className="flex items-center ml-10 text-gray-500 md:text-[15px]">
+        <p className="flex items-center ml-10 text-gray-500 text-[13px] md:text-[15px]">
           {sku}
         </p>
       </div>

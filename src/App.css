@@ -16,4 +16,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
+/* Loader */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loader {
+  animation: spin 1s linear infinite;
+}
 /* Header */
