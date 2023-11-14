@@ -26,4 +26,10 @@
 .loader {
   animation: spin 1s linear infinite;
 }
-/* Header */
+/* Fuente */
+.mainFont {
+  font-family: "Quicksand", sans-serif;
+}
+.hoverLinks:hover {
+  color: var(--hover-all);
+}

@@ -18,7 +18,7 @@ export default function ProductButtons({ max, resetCounter }) {
     if (counter < max) setCounter(counter + 1);
   };
   return (
-    <div className="flex mt-2 lg:mt-1 ">
+    <div className="flex mt-6 lg:mt-4 ">
       <div className="flex justify-around p-2 h-8 w-28 lg:h-10 lg:w-40 ml-2 lg:ml-4 border border-gray-900 rounded-md">
         <img
           src="/minus.svg"
@@ -26,7 +26,7 @@ export default function ProductButtons({ max, resetCounter }) {
           className="w-3 cursor-pointer"
           onClick={handleRest}
         />
-        <p className="text-sm flex items-center">{counter}</p>
+        <p className="text-sm flex items-center font-semibold">{counter}</p>
         <img
           src="plus.svg"
           alt="plus"

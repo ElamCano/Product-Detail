@@ -24,13 +24,13 @@ export default function ProductTab() {
             key={value}
             value={value}
             onClick={() => setActiveTab(value)}
-            className={activeTab === value ? "text-gray-900" : ""}
+            className={activeTab === value ? "font-semibold text-gray-900" : ""}
           >
             {label}
           </Tab>
         ))}
       </TabsHeader>
-      <TabsBody className="w-[370px]  h-[150px]  ml-[-5px] lg:w-[470px]">
+      <TabsBody className="w-[370px] h-[150px] ml-[-5px] lg:w-[470px]">
         {data.map(({ value, desc }) => (
           <TabPanel key={value} value={value} className="md:h-36">
             {desc}

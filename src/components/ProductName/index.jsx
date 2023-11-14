@@ -1,14 +1,16 @@
 export default function ProductName({ name, price, previousPrice, sku }) {
   return (
     <div>
-      <div className="flex w-72 ml-0.5 justify-between text-gray-500 text-[11px] ">
-        <button>Inicio</button>
+      <div className="flex w-72 ml-0.5 justify-between text-gray-700 text-[11px] ">
+        <button className="hoverLinks">Inicio</button>
         <p>.</p>
-        <button>Hombre</button>
+        <button className="hoverLinks">Hombre</button>
         <p>.</p>
-        <button>Remeras</button>
+        <button className="hoverLinks">Remeras</button>
         <p>.</p>
-        <button className="uppercase text-gray-700">{name}</button>
+        <button className="hoverLinks uppercase text-gray-600 font-semibold">
+          {name}
+        </button>
       </div>
       <h1 className="font-bold text-4xl lg:text-5xl lg:mt-2">{name}</h1>
       <div className="flex text-lg lg:text-2xl ml-2 lg:ml-0 mt-6">

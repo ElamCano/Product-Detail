@@ -26,47 +26,47 @@ export default function ProductSize({ s, m, l, xl, xxl, xxxl }) {
   return (
     <div>
       <div className="flex w-full mt-10 lg:mt-6">
-        <div className="flex justify-around w-[300px] ">
+        <div className="flex justify-around w-[300px] text-gray-900 font-semibold">
           <p>Talle</p>
           <button
-            className="text-[11px] border border-black w-6 h-6 rounded-sm text-gray-600 hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
+            className="text-[11px] border border-black w-6 h-6 rounded-sm  hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
             onClick={() => handleClick(s)}
           >
             S
           </button>
           <button
-            className="text-[11px] border border-black w-6 h-6 rounded-sm text-gray-600 hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
+            className="text-[11px] border border-black w-6 h-6 rounded-sm  hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
             onClick={() => handleClick(m)}
           >
             M
           </button>
           <button
-            className="text-[11px] border border-black w-6 h-6 rounded-sm text-gray-600 hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
+            className="text-[11px] border border-black w-6 h-6 rounded-sm hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
             onClick={() => handleClick(l)}
           >
             L
           </button>
           <button
-            className="text-[11px] border border-black w-6 h-6 rounded-sm text-gray-600 hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
+            className="text-[11px] border border-black w-6 h-6 rounded-sm hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
             onClick={() => handleClick(xl)}
           >
             XL
           </button>
           <button
-            className="text-[11px] border border-black w-8 h-6 rounded-sm text-gray-600 hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
+            className="text-[11px] border border-black w-8 h-6 rounded-sm hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
             onClick={() => handleClick(xxl)}
           >
             XXL
           </button>
           <button
-            className="text-[11px] border border-black w-10 h-6 rounded-sm text-gray-600 hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
+            className="text-[11px] border border-black w-10 h-6 rounded-sm hover:text-gray-400 active:bg-gray-900 focus:outline-none focus:ring focus:border-blue-300 transition duration-300 ease-in-out"
             onClick={() => handleClick(xxxl)}
           >
             XXXL
           </button>
         </div>
         {active && (
-          <p className="mt-1 text-[10px] h-12 w-[109px] text-gray-600">
+          <p className="mt-1 text-[10px] h-12 w-[109px] text-gray-900 font-semibold">
             {active}
           </p>
         )}
