@@ -1,6 +1,6 @@
 # MyApp
 
-![cover](/public/productDetail.png)
+![cover](/public/coverHero.png)
 
 Puedes acceder al sitio deployado en el siguiente: [Link](https://myapp-nine-delta.vercel.app/)
 
