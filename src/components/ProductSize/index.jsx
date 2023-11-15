@@ -24,8 +24,8 @@ export default function ProductSize({ s, m, l, xl, xxl, xxxl }) {
     }
   };
   return (
-    <div>
-      <div className="flex w-full mt-10 lg:mt-6">
+    <div className="w-full flex flex-col items-center md:items-start">
+      <div className="flex md:ml-6 w-full justify-center md:justify-start mt-10 lg:mt-6">
         <div className="flex justify-around w-[300px] text-gray-900 font-semibold">
           <p>Talle</p>
           <button

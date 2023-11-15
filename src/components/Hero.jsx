@@ -57,7 +57,7 @@ export default function Hero() {
         </p> */}
         <div className="flex-1 "></div>
       </div>
-      <div className="mt-6 ml-2 lg:ml-0 md:mt-20 lg:mt-28">
+      <div className="mt-6 lg:ml-0 md:mt-20 lg:mt-28 flex flex-col justify-center items-center md:items-start">
         <ProductName
           name={product.name}
           price={product.price}

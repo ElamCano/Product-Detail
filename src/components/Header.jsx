@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./../App.css";
 export default function Header() {
   return (
-    <header className="mainFont flex w-full fixed top-0 backdrop-blur-[2px] z-10 justify-center items-center px-4 lg:px-12 h-20 lg:h-24">
+    <header className="mainFont flex w-full fixed top-0 backdrop-blur-[3px] z-10 justify-center items-center px-4 lg:px-12 h-20 lg:h-24">
       <div className="flex items-center">
         <img src="/logo_white.svg" alt="" className="w-10 md:ml-0" />
         <h1 className="text-2xl font-bold text-[#f5f5f5]">RANDORI</h1>

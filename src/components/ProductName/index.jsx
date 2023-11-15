@@ -12,9 +12,9 @@ export default function ProductName({ name, price, previousPrice, sku }) {
           {name}
         </button>
       </div>
-      <h1 className="font-bold text-4xl lg:text-5xl lg:mt-2">{name}</h1>
+      <h1 className="font-extrabold text-4xl lg:text-5xl lg:mt-2">{name}</h1>
       <div className="flex text-lg lg:text-2xl ml-2 lg:ml-0 mt-6">
-        <p className="text-2xl lg:text-4xl font-bold">${price}</p>
+        <p className="text-2xl lg:text-4xl font-extrabold">${price}</p>
         <p
           className={`${
             previousPrice

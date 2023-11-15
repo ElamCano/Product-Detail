@@ -18,7 +18,7 @@ export default function ProductButtons({ max, resetCounter }) {
     if (counter < max) setCounter(counter + 1);
   };
   return (
-    <div className="flex mt-6 lg:mt-4 ">
+    <div className="flex mt-6 lg:mt-4 md:ml-4">
       <div className="flex justify-around p-2 h-8 w-28 lg:h-10 lg:w-40 ml-2 lg:ml-4 border border-gray-900 rounded-md">
         <img
           src="/minus.svg"
@@ -39,7 +39,7 @@ export default function ProductButtons({ max, resetCounter }) {
           counter
             ? "bg-gray-900 hover:bg-gray-700"
             : "bg-gray-500 cursor-no-drop"
-        } flex justify-center items-center p-2 h-8 w-[260px] lg:h-10 lg:w-[250px] ml-3 border transition duration-500 ease-in-out rounded-md text-white`}
+        } flex justify-center items-center p-2 h-8 w-full  max-w-[230px] lg:h-10 lg:w-[250px] ml-3 border transition duration-500 ease-in-out rounded-md text-white`}
       >
         {counter ? (
           <div className="flex">
