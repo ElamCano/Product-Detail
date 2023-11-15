@@ -15,7 +15,7 @@ const data = [
   {
     label: "Comentarios",
     value: "comentarios",
-    desc: `"¡Me encanta mi nueva remera! La calidad del tejido es excepcional y el diseño es aún más impresionante en persona." - Atleta de Randori`,
+    desc: `"¡Me encanta mi nueva remera! La calidad es buenísima y el diseño mucho más impresionante en persona." - Atleta de Randori`,
   },
 ];
 

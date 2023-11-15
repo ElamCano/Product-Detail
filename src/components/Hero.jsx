@@ -41,7 +41,7 @@ export default function Hero() {
   }
 
   return (
-    <section className="mainFont flex flex-col md:flex-row">
+    <section className="mainFont flex flex-col md:flex-row lg:h-screen">
       <div className="flex relative min-h-[500px] w-full lg:w-[55%]">
         <div className="flex-1 bg-red-700"></div>
         <img
