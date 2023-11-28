@@ -74,7 +74,7 @@ export default function Hero() {
           xxl={product.xxl}
           xxxl={product.xxxl}
         />
-        <BuyButton />
+        {/*  <BuyButton /> */}
       </div>
     </section>
   );
