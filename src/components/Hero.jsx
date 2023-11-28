@@ -3,6 +3,7 @@ import ProductName from "./ProductName";
 import ProductSize from "./ProductSize";
 import { useEffect, useState } from "react";
 import "../App.css";
+import BuyButton from "./BuyButton";
 export default function Hero() {
   const [product, setProduct] = useState(null);
 
@@ -73,6 +74,7 @@ export default function Hero() {
           xxl={product.xxl}
           xxxl={product.xxxl}
         />
+        <BuyButton />
       </div>
     </section>
   );

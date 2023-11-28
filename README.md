@@ -22,3 +22,5 @@ Puedes acceder al sitio deployado en el siguiente: [Link](https://myapp-nine-del
 ## Detalle de Presentación
 
 Se utilizó el hook useEffect para simular el request del producto, en este caso pidiendo los datos a un json en la carpeta "public", el cual proporciona todo lo que se imprime en pantalla (nombre, precio, sku, etc). Aunque en este caso se muestra solo un producto los componentes utilizan las props para recibir los datos a renderizar, por lo que facilmente se puede adaptar a una lista larga de productos.
+
+Se agrego el botón de Compra y el estado que muestra "Gracias por su compra" al hacerle click
